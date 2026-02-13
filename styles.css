@@ -1,0 +1,126 @@
+:root{
+    cursor: url(RWBusy.cur), auto;
+}
+
+body{
+    align-items: center;
+    font-family: "Maple Mono";
+    cursor:crosshair;
+    background-image:url(https://gifcity.carrd.co/assets/images/gallery68/5cba38ca.gif?v=49efbe4c)
+}
+
+#kill{
+    
+    float: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: all 2s cubic-bezier(.02,.68,.5,1);
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    font-family: "Maple Mono";
+    cursor: crosshair;
+}
+
+#kill:hover{
+    background-color: red;
+    cursor: grab;
+    scale: 0.5;
+    transform: rotateY(360deg)
+}
+
+#kill:active{
+    background-color: green;
+    transform: rotate(360deg);
+    cursor: grabbing;
+}
+
+#fake{
+    background-color: red;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    letter-spacing: 5px;
+    transition: all 0.5s cubic-bezier(.02,.68,.5,1);
+    font-family: "Maple Mono";
+    cursor: crosshair;
+    box-shadow: 0px 10px 0px black;
+    position: fixed;
+    left:6%;
+    top:2%;
+}
+
+#fake:hover{
+    cursor: grab;
+}
+
+#fake:active{
+    cursor: grabbing;
+    transform: translateY(10px);
+    box-shadow: 0px 0px 0px black;
+    
+}
+
+#hi{
+    font-size: xx-large;
+    position: absolute;
+    margin-left:50%;
+transform:translateX(-50%);
+}
+
+#port{
+    font-family: "Maple Mono";
+    font-weight: bold;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 50px;
+    color: white;
+    background: rgb(25, 25, 255);
+    transition: all 1.5s cubic-bezier(.02,.68,.5,1);
+    border-radius: 55%;
+    box-shadow: 0px 10px 0px black;
+    position:fixed;
+    left: 90%;
+    top: 1%;
+}
+#port:hover{
+    cursor: grab;
+}
+
+#port:active{
+    transform: translateY(10px);
+    box-shadow: 0px 0px 0px black;
+    cursor: grabbing;
+}
+
+#headr{
+    font-size: xxx-large;
+    margin-left:50%;
+    transform:translateX(-50%);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#back{
+    box-shadow: 0px 10px 0px black;
+    transition: all 1.5s cubic-bezier(.02,.68,.5,1);
+}
+
+#back:active{
+    transform: translateY(10px);
+    box-shadow: 0px 0px 0px black;
+}
+
+#cooltext{
+    margin-left:50%;
+    transform:translateX(-50%);
+}
+
+#div2{
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 20%;
+    
+}
