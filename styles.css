@@ -65,7 +65,7 @@ body{
     font-size: xx-large;
     position: absolute;
     margin-left:50%;
-transform:translateX(-50%);
+    transform:translateX(-50%);
 }
 
 #port{
