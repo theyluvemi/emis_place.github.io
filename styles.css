@@ -10,7 +10,8 @@ body{
     align-items: center;
     font-family: "Maple Mono";
     cursor:crosshair;
-    background-image: url(https://gifcity.carrd.co/assets/images/gallery129/4819b878.jpg?v=49efbe4c)
+    background-image: url(https://gifcity.carrd.co/assets/images/gallery68/5cba38ca.gif?v=49efbe4c)
+    
 }
 
 #kill{
@@ -24,12 +25,14 @@ body{
     border-radius: 20%;
     font-family: "Maple Mono";
     cursor: crosshair;
+    position: relative;
+    left: 1755px;
+    top: 800px;
 }
 
 #kill:hover{
     background-color: red;
     cursor: grab;
-    scale: 0.5;
     transform: rotateY(360deg)
 }
 
@@ -49,9 +52,9 @@ body{
     font-family: "Maple Mono";
     cursor: crosshair;
     box-shadow: 0px 10px 0px black;
-    position: fixed;
-    left:6%;
-    top:2%;
+    position: relative;
+    left:-100px;
+    top:-10px;
 }
 
 #fake:hover{
@@ -67,9 +70,10 @@ body{
 
 #hi{
     font-size: xx-large;
-    position: absolute;
-    margin-left:50%;
-    transform:translateX(-50%);
+    position: relative;
+    left: 600px;
+    top: -100px;
+    width: fit-content;
 }
 
 #port{
@@ -83,8 +87,8 @@ body{
     transition: all 1.5s cubic-bezier(.02,.68,.5,1);
     border-radius: 55%;
     box-shadow: 0px 10px 0px black;
-    position:fixed;
-    left: 90%;
+    position:relative;
+    left: 1600px;
     top: 1%;
 }
 #port:hover{
@@ -112,7 +116,7 @@ body{
     position: relative;
     left: 1650px;
     top: -125px;
-    bottom: 1000px;
+    bottom: 100px;
 }
 
 #back:active{
@@ -120,22 +124,17 @@ body{
     box-shadow: 0px 0px 0px black;
 }
 
-#cooltext{
-    position: relative;
-}
-
 #div2{
-    position: absolute;
-    left: 40%;
-    right: 40%;
-    top: 20%;
-    
+    position: relative;
+    width: fit-content;
+    left: 680px;
+    top: -100px;
 }
 
 #gio{
-    position: sticky;
-    left: 100%;
-    bottom: 100%;
+    position: relative;
+    left: 1310px;
+    top: -240px;
     opacity: 0.8;
 }
 
@@ -157,15 +156,22 @@ body{
     font-size: xx-large;
     top: -150px;
     position: relative;
+    width: fit-content;
 }
 
 #fssh{
       position: relative;
         left: 700px;
         top: 680px;
+        width: fit-content;
 
 }
 
 #spam{
     position: relative;
+}
+
+#cat{
+    position: relative;
+    left: -190px;
 }
