@@ -104,7 +104,7 @@ body{
 
 #back{
     box-shadow: 0px 10px 0px black;
-    transition: all 1.5s cubic-bezier(.02,.68,.5,1);
+    transition: all 1.0s cubic-bezier(.02,.68,.5,1);
 }
 
 #back:active{
