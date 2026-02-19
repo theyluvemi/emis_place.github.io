@@ -26,8 +26,8 @@ body{
     font-family: "Maple Mono";
     cursor: crosshair;
     position: relative;
-    left: 1120px;
-    top: 525px;
+    left: 15vh;
+    top: 0vw;
 }
 
 #kill:hover{
@@ -53,8 +53,8 @@ body{
     cursor: crosshair;
     box-shadow: 0px 10px 0px black;
     position: relative;
-    left:-100px;
-    top:-10px;
+    left:-8vw;
+    top:0vh;
 }
 
 #fake:hover{
@@ -71,8 +71,8 @@ body{
 #hi{
     font-size: xx-large;
     position: relative;
-    left: 350px;
-    top: -100px;
+    left: 25vw;
+    top: -15vh;
     width: fit-content;
 }
 
@@ -88,8 +88,8 @@ body{
     border-radius: 55%;
     box-shadow: 0px 10px 0px black;
     position:relative;
-    left: 950px;
-    top: 1%;
+    left: 77vw;
+    top: 1vh;
 }
 #port:hover{
     cursor: grab;
@@ -103,9 +103,9 @@ body{
 
 #headr{
     font-size: xxx-large;
-    margin-left:50%;
-    transform:translateX(-50%);
-    display: flex;
+    position: relative;
+    top: 10vh;
+    left: 10vw;
     justify-content: center;
     justify-items: center;
 }
@@ -114,9 +114,8 @@ body{
     box-shadow: 0px 10px 0px black;
     transition: all 1.0s cubic-bezier(.02,.68,.5,1);
     position: relative;
-    left: 1650px;
-    top: -125px;
-    bottom: 100px;
+    left: 82vw;
+    top: -19vh;
 }
 
 #back:active{
@@ -127,42 +126,41 @@ body{
 #div2{
     position: relative;
     width: fit-content;
-    left: 450px;
-    top: -100px;
+    left: 35vw;
+    top: -15vh;
 }
 
 #gio{
     position: relative;
-    left: 670px;
-    top: -240px;
+    left: 55vw;
+    top: -37vh;
     opacity: 0.8;
 }
 
 #pixel{
     position:relative;
-    left: 750px;
-    top: -120px;
-    bottom: 1000px;
+    left: 9vw;
+    top: -18vh;
 }
 
 #emi{
     position: relative;
-    top: -20px;
-    left: 25%;
+    top: -2vh;
+    left: 10vw;
 }
 
 #div3{
     font-family: hypercam;
     font-size: xx-large;
-    top: -150px;
+    top: 150vh;
     position: relative;
     width: fit-content;
 }
 
 #fssh{
       position: relative;
-        left: 700px;
-        top: 680px;
+        top: 62vh;
+        left: 30vw;
         width: fit-content;
 
 }
@@ -173,5 +171,10 @@ body{
 
 #cat{
     position: relative;
-    left: -190px;
+    left: -15vw;
+}
+
+#unplea{
+    position: relative;
+    left: -15vw;
 }
