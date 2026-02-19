@@ -26,8 +26,8 @@ body{
     font-family: "Maple Mono";
     cursor: crosshair;
     position: relative;
-    left: 15vh;
-    top: 0vw;
+    left: 0vh;
+    bottom: 0vw;
 }
 
 #kill:hover{
@@ -53,8 +53,8 @@ body{
     cursor: crosshair;
     box-shadow: 0px 10px 0px black;
     position: relative;
-    left:-8vw;
-    top:0vh;
+    left:0vw;
+    bottom:0vh;
 }
 
 #fake:hover{
@@ -72,7 +72,7 @@ body{
     font-size: xx-large;
     position: relative;
     left: 25vw;
-    top: -15vh;
+    bottom: 10vh;
     width: fit-content;
 }
 
@@ -88,8 +88,8 @@ body{
     border-radius: 55%;
     box-shadow: 0px 10px 0px black;
     position:relative;
-    left: 77vw;
-    top: 1vh;
+    left: 85vw;
+    bottom: 1vh;
 }
 #port:hover{
     cursor: grab;
@@ -104,7 +104,7 @@ body{
 #headr{
     font-size: xxx-large;
     position: relative;
-    top: 10vh;
+    top: 1vh;
     left: 10vw;
     justify-content: center;
     justify-items: center;
@@ -115,7 +115,7 @@ body{
     transition: all 1.0s cubic-bezier(.02,.68,.5,1);
     position: relative;
     left: 82vw;
-    top: -19vh;
+    bottom: -19vh;
 }
 
 #back:active{
@@ -126,26 +126,26 @@ body{
 #div2{
     position: relative;
     width: fit-content;
-    left: 35vw;
-    top: -15vh;
+    left: 30vw;
+    bottom: 10vh;
 }
 
 #gio{
     position: relative;
-    left: 55vw;
-    top: -37vh;
-    opacity: 0.8;
+    left: 75vw;
+    bottom: 15vh;
+    opacity: 0.5;
 }
 
 #pixel{
     position:relative;
     left: 9vw;
-    top: -18vh;
+    top: 18vh;
 }
 
 #emi{
     position: relative;
-    top: -2vh;
+    bottom: -2vh;
     left: 10vw;
 }
 
@@ -171,10 +171,12 @@ body{
 
 #cat{
     position: relative;
-    left: -15vw;
+    left: 0vw;
+    bottom: ;
 }
 
 #unplea{
     position: relative;
-    left: -15vw;
+    left: 0vw;
+    bottom: ;
 }
