@@ -34,7 +34,7 @@ body{
 #kill:hover{
     background-color: red;
     cursor: grab;
-    transform: rotateY(360deg)
+    transform:skewY(60deg);
 }
 
 #kill:active{
@@ -139,6 +139,11 @@ body{
     opacity: 0.5;
     margin-right: 0.5vw;
     margin-top: 15vh;
+    border:solid 2.5px black;
+}
+
+#gio:hover{
+   filter: grayscale(1);
 }
 
 #pixel{
