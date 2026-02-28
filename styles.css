@@ -72,10 +72,24 @@ body{
 #hi{
     font-size: xx-large;
     position: relative;
-    left: 25vw;
+    left: 40vw;
     bottom: 10vh;
     width: fit-content;
+    animation: rotating 10s infinite;
 }
+    @keyframes rotating {
+    0% {-webkit-transform: rotate(-10deg);}
+    10% {-webkit-transform: rotate(10deg);}
+    20% {-webkit-transform: rotate(-10deg);}
+    30% {-webkit-transform: rotate(10deg);}
+    40% {-webkit-transform: rotate(-10deg);}
+    50% {-webkit-transform: rotate(10deg);}
+    60% {-webkit-transform: rotate(-10deg);}
+    70% {-webkit-transform: rotate(10deg);}
+    80% {-webkit-transform: rotate(-10deg);}
+    90% {-webkit-transform: rotate(10deg);}
+    100% {-webkit-transform: rotate(-10deg);}
+    }
 
 #port{
     font-family: "Maple Mono";
@@ -93,6 +107,7 @@ body{
     top: 0;
     margin: 10px;
 }
+
 #port:hover{
     cursor: grab;
 }
@@ -101,6 +116,18 @@ body{
     transform: translateY(10px);
     box-shadow: 0px 0px 0px black;
     cursor: grabbing;
+}
+
+#sound{
+    width:175px ;
+    height:20px ;
+    position: relative;
+    box-shadow: 0px 8px 0px black;
+}
+
+#sound:active{
+    transform: translateY(10px);
+    box-shadow: 0px 0px 0px black;
 }
 
 #headr{
@@ -123,13 +150,6 @@ body{
 #back:active{
     transform: translateY(10px);
     box-shadow: 0px 0px 0px black;
-}
-
-#div2{
-    position: relative;
-    width: fit-content;
-    left: 30vw;
-    bottom: 10vh;
 }
 
 #gio{
@@ -186,4 +206,12 @@ body{
 #unplea{
     position: relative;
     left: 0vw;
+}
+
+#intro{
+    width: 850px;
+    height: fit-content;
+    position: relative;
+    top: 1vh;
+    left: 25vw;
 }
