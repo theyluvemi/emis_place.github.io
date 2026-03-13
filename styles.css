@@ -1,26 +1,24 @@
-:root{
+:root {
     cursor: url(assets/RWHand.cur), auto;
 }
 
-@font-face{
+@font-face {
     font-family: hypercam;
     src: url(assets/FSEX300.ttf) format(truetype);
 }
-body{
+body {
     align-items: center;
     font-family: "Maple Mono";
-    cursor:crosshair;
-    background-image: url(assets/materialdictionary178_58.jpg);
-    background-size:cover;
-    
+    cursor: crosshair;
+    background-image: url(https://gifcity.carrd.co/assets/images/gallery128/13d961d9.png?v=49efbe4c);
+    background-size: cover;
 }
 
-#kill{
-    
+#kill {
     float: none;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    transition: all 2s cubic-bezier(.02,.68,.5,1);
+    transition: all 2s cubic-bezier(0.02, 0.68, 0.5, 1);
     width: 100px;
     height: 100px;
     border-radius: 20%;
@@ -31,67 +29,89 @@ body{
     bottom: 0vw;
 }
 
-#kill:hover{
+#kill:hover {
     background-color: red;
     cursor: grab;
-    transform:skewY(60deg);
+    transform: skewY(60deg);
 }
 
-#kill:active{
+#kill:active {
     background-color: green;
     transform: rotate(360deg);
     cursor: grabbing;
 }
 
-#fake{
+#fake {
     background-color: red;
     border-radius: 50%;
     width: 75px;
     height: 75px;
     letter-spacing: 5px;
-    transition: all 0.5s cubic-bezier(.02,.68,.5,1);
+    transition: all 0.5s cubic-bezier(0.02, 0.68, 0.5, 1);
     font-family: "Maple Mono";
     cursor: crosshair;
     box-shadow: 0px 10px 0px black;
     position: relative;
-    left:0vw;
-    bottom:0vh;
+    left: 0vw;
+    bottom: 0vh;
 }
 
-#fake:hover{
+#fake:hover {
     cursor: grab;
 }
 
-#fake:active{
+#fake:active {
     cursor: grabbing;
     transform: translateY(10px);
     box-shadow: 0px 0px 0px black;
-    
 }
 
-#hi{
+#hi {
     font-size: xx-large;
     position: relative;
     left: 40vw;
     bottom: 10vh;
     width: fit-content;
     animation: rotating 10s infinite;
+    color: white;
 }
-    @keyframes rotating {
-    0% {-webkit-transform: rotate(-10deg);}
-    10% {-webkit-transform: rotate(10deg);}
-    20% {-webkit-transform: rotate(-10deg);}
-    30% {-webkit-transform: rotate(10deg);}
-    40% {-webkit-transform: rotate(-10deg);}
-    50% {-webkit-transform: rotate(10deg);}
-    60% {-webkit-transform: rotate(-10deg);}
-    70% {-webkit-transform: rotate(10deg);}
-    80% {-webkit-transform: rotate(-10deg);}
-    90% {-webkit-transform: rotate(10deg);}
-    100% {-webkit-transform: rotate(-10deg);}
+@keyframes rotating {
+    0% {
+        -webkit-transform: rotate(-10deg);
     }
+    10% {
+        -webkit-transform: rotate(10deg);
+    }
+    20% {
+        -webkit-transform: rotate(-10deg);
+    }
+    30% {
+        -webkit-transform: rotate(10deg);
+    }
+    40% {
+        -webkit-transform: rotate(-10deg);
+    }
+    50% {
+        -webkit-transform: rotate(10deg);
+    }
+    60% {
+        -webkit-transform: rotate(-10deg);
+    }
+    70% {
+        -webkit-transform: rotate(10deg);
+    }
+    80% {
+        -webkit-transform: rotate(-10deg);
+    }
+    90% {
+        -webkit-transform: rotate(10deg);
+    }
+    100% {
+        -webkit-transform: rotate(-10deg);
+    }
+}
 
-#port{
+#port {
     font-family: "Maple Mono";
     font-weight: bold;
     -webkit-text-stroke-width: 2px;
@@ -99,119 +119,175 @@ body{
     font-size: 50px;
     color: white;
     background: rgb(25, 25, 255);
-    transition: all 1.5s cubic-bezier(.02,.68,.5,1);
+    transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1);
     border-radius: 55%;
     box-shadow: 0px 10px 0px black;
-    position:fixed;
+    position: fixed;
     right: 0;
     top: 0;
     margin: 10px;
 }
 
-#port:hover{
+#port:hover {
     cursor: grab;
 }
 
-#port:active{
+#port:active {
     transform: translateY(10px);
     box-shadow: 0px 0px 0px black;
     cursor: grabbing;
 }
 
-#sound{
-    width:175px ;
-    height:20px ;
+#sound {
+    width: 175px;
+    height: 20px;
     position: relative;
     box-shadow: 0px 8px 0px black;
 }
 
-#sound:active{
+#sound:active {
     transform: translateY(10px);
     box-shadow: 0px 0px 0px black;
 }
 
-#headr{
+#headr {
     font-size: xxx-large;
     position: relative;
     top: 1vh;
     left: 10vw;
     justify-content: center;
     justify-items: center;
+    color: white;
 }
 
-#back{
+#back {
     box-shadow: 0px 10px 0px black;
-    transition: all 1.0s cubic-bezier(.02,.68,.5,1);
+    transition: all 1s cubic-bezier(0.02, 0.68, 0.5, 1);
     position: relative;
-    left: 82vw;
-    bottom: -19vh;
+    left: 95vw;
+    bottom: 10vh;
 }
 
-#back:active{
+#back:active {
     transform: translateY(10px);
     box-shadow: 0px 0px 0px black;
 }
 
-#gio{
+#gio {
     position: fixed;
     right: 0vw;
     top: 0vh;
     opacity: 0.5;
     margin-right: 0.5vw;
     margin-top: 15vh;
-    border:solid 2.5px black;
+    border: solid 2.5px black;
 }
 
-#gio:hover{
-   filter: grayscale(1);
+#gio:hover {
+    filter: grayscale(1);
 }
 
-#pixel{
-    position:relative;
-    left: 9vw;
-    top: 18vh;
-}
-
-#emi{
+#emi {
     position: relative;
-    bottom: -2vh;
-    left: 10vw;
+    bottom: -1vh;
+    left: 20vw;
 }
 
-#div3{
-    font-family: hypercam;
-    font-size: xx-large;
-    top: 150vh;
+#fssh {
     position: relative;
+    top: 62vh;
+    left: 30vw;
     width: fit-content;
 }
 
-#fssh{
-      position: relative;
-        top: 62vh;
-        left: 30vw;
-        width: fit-content;
-
-}
-
-#spam{
+#spam {
     position: relative;
 }
 
-#cat{
+#cat {
     position: relative;
     left: 0vw;
 }
 
-#unplea{
+#unplea {
     position: relative;
     left: 0vw;
 }
 
-#intro{
+#intro {
     width: 850px;
     height: fit-content;
     position: relative;
     top: 1vh;
     left: 25vw;
+    color: white;
+}
+
+.subbutton {
+    position: relative;
+    left: 30vw;
+}
+
+#sci {
+    position: relative;
+    font-size: xx-large;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    background-color: #5b39d4;
+    border: transparent;
+}
+
+#math {
+    position: relative;
+    font-size: xx-large;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    background-color: red;
+    border: transparent;
+}
+
+#eng {
+    position: relative;
+    font-size: xx-large;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    background-color: green;
+    border: transparent;
+}
+
+#art {
+    position: relative;
+    font-size: xx-large;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    background-color: orange;
+    border: transparent;
+}
+
+#ff {
+    position: relative;
+    font-size: large;
+    width: 600px;
+    height: 75px;
+    border-radius: 20px;
+    top: 1vh;
+    left: 30.5vw;
+    border: transparent;
+    background-image: linear-gradient(
+        to right,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        indigo
+    );
+    transition: all 1.5s cubic-bezier(0.02, 0.68, 0.5, 1);
+}
+#ff:hover {
+    transform: translateY(10);
 }
